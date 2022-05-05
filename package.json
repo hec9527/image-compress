@@ -11,7 +11,7 @@
         "typescript": "^4.5.4",
         "vite": "^2.9.7"
     },
-    "description": "image-compress is a tool to compress image via HTML canvas element",
+    "description": "image-compress is a tool to compress image by HTMLCanvasElement and HTML5 Api",
     "main": "index.js",
     "author": "hec9527",
     "license": "MIT"
