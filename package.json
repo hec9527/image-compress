@@ -16,6 +16,7 @@
     "description": "image-compress is a tool to compress image by HTMLCanvasElement and HTML5 Api",
     "main": "./dist/index.js.umd.js",
     "module": "./dist/index.js.es.js",
+    "homepage": "https://github.com/hec9527/image-compress",
     "author": "hec9527",
     "license": "MIT",
     "files": [

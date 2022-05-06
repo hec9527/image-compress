@@ -4,6 +4,8 @@ image-compress is a tool to compress image by HTMLCanvasElement and HTML5 Api
 
 ## Usage
 
+[online usage](https://image-compress-hec9527.vercel.app/)
+
 ### npm
 
 ```ts
