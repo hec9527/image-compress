@@ -1,18 +1,28 @@
 {
     "name": "image-compress",
-    "private": true,
+    "private": false,
     "version": "1.0.0",
     "scripts": {
         "dev": "vite",
-        "build": "tsc && vite build",
-        "preview": "vite preview"
+        "build": "vite build",
+        "tag": "npm pushlish"
     },
     "devDependencies": {
         "typescript": "^4.5.4",
         "vite": "^2.9.7"
     },
     "description": "image-compress is a tool to compress image by HTMLCanvasElement and HTML5 Api",
-    "main": "index.js",
+    "main": "./dist/index.js.umd.js",
+    "module": "./dist/index.js.es.js",
     "author": "hec9527",
-    "license": "MIT"
+    "license": "MIT",
+    "files": [
+        "dist"
+    ],
+    "exports": {
+        ".": {
+            "import": "./dist/index.js.es",
+            "require": "./dist/index.js.umd"
+        }
+    }
 }

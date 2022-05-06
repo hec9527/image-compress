@@ -10,7 +10,7 @@ el.addEventListener('change', e => {
     if (!file) return;
     (e.target as any).value = '';
 
-    compress(file, { width: 1024 }).then(blob => {
+    compress(file).then(blob => {
         console.log({
             file,
             blob,
