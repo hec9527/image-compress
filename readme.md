@@ -22,7 +22,7 @@ el.addEventListener('change', e => {
 ### umd
 
 ```html
-<script src=""></script>
+<script src="path/to/index.umd.js"></script>
 ```
 
 ```js

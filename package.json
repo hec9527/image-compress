@@ -5,6 +5,7 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
+        "build:test": "vite build -c=./vite.test.config.ts",
         "tag": "npm pushlish",
         "pub": "npm run build && npm publish ./ --access public --registry=https://registry.npmjs.org/"
     },
