@@ -1,11 +1,12 @@
 {
-    "name": "image-compress",
+    "name": "@hec9527/image-compress",
     "private": false,
     "version": "1.0.0",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "tag": "npm pushlish"
+        "tag": "npm pushlish",
+        "pub": "npm run build && npm publish ./ --access public --registry=https://registry.npmjs.org/"
     },
     "devDependencies": {
         "typescript": "^4.5.4",

@@ -20,10 +20,7 @@ const defaultOption: Partial<CompressOption> = {
 /**
  *  compress image from File、 HTMLImageElement or remote Url
  */
-export async function compress(
-    file: File | HTMLImageElement | string,
-    option: Partial<CompressOption> = {}
-): Promise<Blob> {
+async function compress(file: File | HTMLImageElement | string, option: Partial<CompressOption> = {}): Promise<Blob> {
     let img: HTMLImageElement;
 
     if (file instanceof HTMLImageElement) {
