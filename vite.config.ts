@@ -6,7 +6,7 @@ export default defineConfig({
     },
     build: {
         lib: {
-            entry: '/src/main.ts',
+            entry: '/src/index.ts',
             fileName: 'index',
             formats: ['cjs', 'es', 'umd', 'iife'],
             name: 'compressImage',

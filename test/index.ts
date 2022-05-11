@@ -1,4 +1,4 @@
-import compress from '../src/main';
+import compress from '../src';
 
 const el = document.getElementById('file') as HTMLInputElement;
 const img = document.getElementById('img') as HTMLImageElement;
