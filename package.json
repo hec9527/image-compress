@@ -4,7 +4,7 @@
     "version": "1.0.1",
     "scripts": {
         "dev": "vite",
-        "build": "tsc && vite build",
+        "build": "vite build && tsc",
         "build:test": "vite build -c=./vite.test.config.ts",
         "tag": "npm pushlish",
         "pub": "npm run build && npm publish ./ --access public --registry=https://registry.npmjs.org/"
