@@ -1,7 +1,7 @@
 {
     "name": "@hec9527/image-compress",
     "private": false,
-    "version": "1.0.3",
+    "version": "1.0.4",
     "scripts": {
         "dev": "vite",
         "build": "vite build && tsc",
@@ -14,8 +14,8 @@
         "vite": "^2.9.7"
     },
     "description": "image-compress is a tool to compress image by HTMLCanvasElement and HTML5 Api",
-    "main": "./dist/index.js.umd.js",
-    "module": "./dist/index.js.es.js",
+    "main": "./dist/index.umd.js",
+    "module": "./dist/index.es.js",
     "homepage": "https://github.com/hec9527/image-compress",
     "author": "hec9527",
     "license": "MIT",
@@ -25,8 +25,8 @@
     "types": "./dist/index.d.ts",
     "exports": {
         ".": {
-            "import": "./dist/index.js.es",
-            "require": "./dist/index.js.umd"
+            "import": "./dist/index.es",
+            "require": "./dist/index.umd"
         }
     }
 }
